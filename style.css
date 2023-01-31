@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Amita:wght@400;700&family=Audiowide&family=Cabin:wght@400;500;600;700&family=Nunito:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Prompt:wght@400;500;600;700;800&family=Roboto+Condensed:wght@400;700&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /* border: 1px solid red; */
+}
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #FFC017;
+    padding: 10px 90px;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid grey;
+}
+nav span{
+    display: flex;
+    align-items: center;
+}
+nav img{
+    height: 50px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+nav li{
+    font-size: 12px;
+    font-weight: 500;
+    list-style: none;
+    margin-right: 20px;
+}
+nav button{
+    height: 40px;
+    width: 110px;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+}
+.main-container{
+    /* position: relative;
+    top: 29px;
+    width: 100%; */
+}
+.hero{
+    background-color: #FFC017;
+    height: 80vh;
+    /* position: absolute;
+    top: 87px;
+    width: 100%; */
+    padding-left: 5vw;
+    border-bottom: 1px solid grey;
+    
+}
+/* .bg-img{
+    background-image: url(./img/pngfind.com-greek-alphabet-png-3616612.png);
+} */
+
+.hero h1{
+    margin-top: 10vh;
+    padding-top: 100px;
+    font-size: 90px;
+}
+.hero h2{
+    color: #292929;
+    font-size: 20px;
+    font-weight: 400;
+}
+.hero button{
+    margin-top: 5vh;
+    height: 50px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    font-size: 16px;
+}
+.trending{
+    height: 70vh;
+    padding-left: 8vw;
+    border-bottom: 1px solid grey;
+}
+.trending .trend{
+    margin-top: 10vh;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    font-size: 18px;
+}
+.trend h4{
+    margin-left: 20px;
+    font-weight: 500;
+}
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2em;
+    margin-right: 20px;
+
+}
+.box{
+    height: 100px;
+    width: 350px;
+    /* border: 1px solid red; */
+    display: flex;
+    margin-bottom: 3em;
+}
+.box .header{
+    display: flex;
+    /* color: grey; */
+}
+.box h4{
+    color: rgb(58, 58, 58);
+}
+.box .number h3{
+    font-size: 35px;
+    color:rgba(142, 142, 142, 0.537);
+}
+.box .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+
+.news{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10vh;
+}
+
+.news .texts{
+    width: 60%;
+}
+.news .box{
+    margin-top: 2em;
+    /* border: 1px solid red; */
+    height: 220px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.news .box .text{
+    display: flex;
+}
+.news .box .text h4{
+  color: rgb(101, 101, 101);
+}
+
+.news .box .head{
+    display: flex;
+}
+.news .box .save{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 35px;
+}
+.news .tags{
+    width: 40%;
+    margin-top: 20vh;
+    position: sticky;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 14px;
+}
+
+.tags .btns{
+    margin-top: 1em;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(168, 168, 168);
+}
+.tags .btns button{
+    height: 30px;
+    padding: 5px 10px;
+    margin-bottom: 1em;
+    margin-right: 5px;
+    background-color:white;
+    border: 1px solid rgb(183, 183, 183);
+    color:rgb(85, 85, 85) ;
+    font-size: 12px;
+}
+
+.tags ul{
+    margin-top: 2em;
+    display: flex;
+
+}
+.tags ul li{
+    list-style: none;
+    margin-right: 2em;
+}
